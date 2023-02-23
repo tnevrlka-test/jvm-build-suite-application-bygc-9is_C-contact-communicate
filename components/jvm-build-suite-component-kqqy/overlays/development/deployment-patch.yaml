@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-kqqy
+  namespace: jvm-build-xolc-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:0404884a1c8a97d34fcfd3131e7c3171a898f07ba49b51afbdbe5f03c5528174
+        name: container-image
+        resources: {}
+status: {}
