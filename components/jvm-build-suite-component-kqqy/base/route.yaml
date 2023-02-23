@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-kqqy
     app.kubernetes.io/part-of: jvm-build-suite-application-bygc
-  name: jvm-build-suite-componentap70
+  name: jvm-build-suite-component7fmv
   namespace: jvm-build-xolc-tenant
 spec:
   port:
